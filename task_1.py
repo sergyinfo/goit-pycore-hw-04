@@ -1,4 +1,4 @@
-def total_salary(path: str):
+def total_salary(path: str) -> tuple:
     """
     Calculates the total and average salaries from a provided txt file.
     
@@ -32,7 +32,6 @@ def total_salary(path: str):
         raise UnicodeDecodeError(f"File encoding is not '{encoding}' and it couldn't be decoded.")
     except FileNotFoundError:
         raise FileNotFoundError(f"File '{path}' not found")
-        
 
 try:
     total, average = total_salary("salaries.txt")

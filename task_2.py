@@ -1,4 +1,4 @@
-def get_cats_info(file_name):
+def get_cats_info(file_name) -> list:
     """
     Reads the contents of a provided txt file and returns them as a dictionary.
     
