@@ -1,6 +1,6 @@
 def total_salary(path: str):
     """
-    Calculates the total and average salaries from a provided CSV file.
+    Calculates the total and average salaries from a provided txt file.
     
     Each line of the file should contain an employee's name and salary, separated by a comma.
 
